@@ -21,7 +21,7 @@ import java.util.List;
 
 public class LuckyBlockBlock extends Block {
 	public LuckyBlockBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 20f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.LANTERN).strength(1f, 20f));
 	}
 
 	@Override
