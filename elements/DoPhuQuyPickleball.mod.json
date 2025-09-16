@@ -1,0 +1,24 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Do Phu Quy Pickleball",
+    "rarity": "RARE",
+    "texture": "dophuquy",
+    "description": "Do Phu Quy Pickleball",
+    "creativeTab": {
+      "value": "CUSTOM:K7A2DLC"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:pickleball"
+    },
+    "lengthInTicks": 56100,
+    "analogOutput": 14
+  }
+}

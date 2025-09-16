@@ -398,30 +398,138 @@
           "src/main/resources/data/k7a2dlc/recipes/stop_right_there_recipe.json"
         ]
       }
+    },
+    {
+      "name": "Pickleball",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickleball",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/item/PickleballItem.java",
+          "src/main/resources/assets/k7a2dlc/models/item/pickleball.json"
+        ]
+      }
+    },
+    {
+      "name": "PickleballProjectile",
+      "type": "projectile",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickleball_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/entity/PickleballProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "VotPickleball",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vot_pickleball",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/item/VotPickleballItem.java",
+          "src/main/resources/assets/k7a2dlc/models/item/vot_pickleball.json"
+        ]
+      }
+    },
+    {
+      "name": "PickleballRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickleball_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2dlc/recipes/pickleball_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "VotPickleballRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vot_pickleball_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2dlc/recipes/vot_pickleball_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DoPhuQuyPickleball",
+      "type": "musicdisc",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "do_phu_quy_pickleball",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2dlc/models/item/do_phu_quy_pickleball.json",
+          "src/main/java/mc/dhp/foss/k7a2dlc/item/DoPhuQuyPickleballItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MusicPickleball",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_pickleball",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2dlc/recipes/music_pickleball.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "pickleball",
+      "files": [
+        "pickleball"
+      ],
+      "category": "music",
+      "subtitle": "Pickleball"
+    }
+  ],
   "language_map": {
     "en_us": {
       "gui.k7a2dlc.armor_trader.label_emerald_block": "Netherite Ingot",
-      "gui.k7a2dlc.armor_trader.label_empty": "-\u003e",
+      "item.k7a2dlc.pickleball": "Pickleball",
       "gui.k7a2dlc.armor_trader.button_ok": "Ok",
       "item.k7a2dlc.tpl_trader_spawn_egg": "TPL Trader Spawn Egg",
+      "block.k7a2dlc.lucky_block": "Lucky Block",
+      "gui.k7a2dlc.armor_trader.label_sword_axe": "Armor",
+      "gui.k7a2dlc.weapon_trader.label_emerald_block": "Netherite Ingot",
+      "item.k7a2dlc.banana": "Banana",
+      "gui.k7a2dlc.weapon_trader.button_ok": "Ok",
+      "subtitles.pickleball": "Pickleball",
+      "gui.k7a2dlc.armor_trader.label_empty": "-\u003e",
       "item.k7a2dlc.ton_lai_spawn_egg": "Ton Lai Spawn Egg",
       "gui.k7a2dlc.weapon_trader.label_ton_lai_sword_trader": "Ton Lai - Sword Trader",
       "item.k7a2dlc.stop_right_there": "Stop Right There",
       "gui.k7a2dlc.armor_trader.label_ton_lai_sword_trader": "TPL - Armor Trader",
       "entity.k7a2dlc.tpl_trader": "TPL Trader",
-      "block.k7a2dlc.lucky_block": "Lucky Block",
       "gui.k7a2dlc.weapon_trader.label_sword_axe": "Sword / Axe",
-      "gui.k7a2dlc.armor_trader.label_sword_axe": "Armor",
+      "item.k7a2dlc.vot_pickleball": "Vot Pickleball",
+      "item.k7a2dlc.do_phu_quy_pickleball": "Do Phu Quy Pickleball",
       "gui.k7a2dlc.armor_trader.label_empty1": "+",
-      "gui.k7a2dlc.weapon_trader.label_emerald_block": "Netherite Ingot",
-      "item.k7a2dlc.banana": "Banana",
       "gui.k7a2dlc.weapon_trader.label_empty": "-\u003e",
       "gui.k7a2dlc.weapon_trader.label_empty1": "+",
-      "gui.k7a2dlc.weapon_trader.button_ok": "Ok",
+      "item.k7a2dlc.do_phu_quy_pickleball.desc": "Do Phu Quy Pickleball",
       "item_group.k7a2dlc.k_7_a_2_dlc": "K 7 A 2 DLC",
       "entity.k7a2dlc.ton_lai": "Ton Lai"
     }

@@ -24,5 +24,8 @@ public class K7a2dlcModTabs {
 				tabData.accept(K7a2dlcModItems.BANANA.get());
 				tabData.accept(K7a2dlcModBlocks.LUCKY_BLOCK.get().asItem());
 				tabData.accept(K7a2dlcModItems.STOP_RIGHT_THERE.get());
+				tabData.accept(K7a2dlcModItems.PICKLEBALL.get());
+				tabData.accept(K7a2dlcModItems.VOT_PICKLEBALL.get());
+				tabData.accept(K7a2dlcModItems.DO_PHU_QUY_PICKLEBALL.get());
 			}).withSearchBar().build());
 }

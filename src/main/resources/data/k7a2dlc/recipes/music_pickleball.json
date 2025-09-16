@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "pickleball",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "k7a2dlc:pickleball"
+    },
+    {
+      "item": "minecraft:jukebox"
+    },
+    {
+      "item": "k7a2dlc:pickleball"
+    }
+  ],
+  "result": {
+    "item": "k7a2dlc:do_phu_quy_pickleball",
+    "count": 1
+  }
+}

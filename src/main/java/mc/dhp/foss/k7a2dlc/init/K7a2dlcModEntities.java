@@ -18,6 +18,7 @@ import net.minecraft.world.entity.Entity;
 
 import mc.dhp.foss.k7a2dlc.entity.TonLaiEntity;
 import mc.dhp.foss.k7a2dlc.entity.TPLTraderEntity;
+import mc.dhp.foss.k7a2dlc.entity.PickleballProjectileEntity;
 import mc.dhp.foss.k7a2dlc.K7a2dlcMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -31,6 +32,8 @@ public class K7a2dlcModEntities {
 			EntityType.Builder.<TPLTraderEntity>of(TPLTraderEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(1).setUpdateInterval(3).setCustomClientFactory(TPLTraderEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<PickleballProjectileEntity>> PICKLEBALL_PROJECTILE = register("projectile_pickleball_projectile", EntityType.Builder.<PickleballProjectileEntity>of(PickleballProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(PickleballProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

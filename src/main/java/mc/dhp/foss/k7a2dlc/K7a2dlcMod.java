@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import mc.dhp.foss.k7a2dlc.init.K7a2dlcModTabs;
+import mc.dhp.foss.k7a2dlc.init.K7a2dlcModSounds;
 import mc.dhp.foss.k7a2dlc.init.K7a2dlcModMenus;
 import mc.dhp.foss.k7a2dlc.init.K7a2dlcModItems;
 import mc.dhp.foss.k7a2dlc.init.K7a2dlcModEntities;
@@ -52,7 +53,7 @@ public class K7a2dlcMod {
 	public K7a2dlcMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		K7a2dlcModSounds.REGISTRY.register(bus);
 		K7a2dlcModBlocks.REGISTRY.register(bus);
 
 		K7a2dlcModItems.REGISTRY.register(bus);

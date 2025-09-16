@@ -1,0 +1,19 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Pickleball"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "block.basalt.break"
+    },
+    "igniteFire": true,
+    "power": 5.0,
+    "damage": 7.0,
+    "knockback": 6,
+    "entityModel": "Default",
+    "customModelTexture": ""
+  }
+}

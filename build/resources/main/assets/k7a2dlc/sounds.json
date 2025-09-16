@@ -1,0 +1,11 @@
+{
+  "pickleball": {
+    "subtitle": "subtitles.pickleball",
+    "sounds": [
+      {
+        "name": "k7a2dlc:pickleball",
+        "stream": true
+      }
+    ]
+  }
+}

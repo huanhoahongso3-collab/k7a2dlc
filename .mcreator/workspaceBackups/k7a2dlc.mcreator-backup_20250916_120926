@@ -68,7 +68,8 @@
       "metadata": {
         "files": [
           "src/main/java/mc/dhp/foss/k7a2dlc/world/inventory/ArmorTraderMenu.java",
-          "src/main/java/mc/dhp/foss/k7a2dlc/client/gui/ArmorTraderScreen.java"
+          "src/main/java/mc/dhp/foss/k7a2dlc/client/gui/ArmorTraderScreen.java",
+          "src/main/java/mc/dhp/foss/k7a2dlc/network/ArmorTraderButtonMessage.java"
         ]
       }
     },
@@ -201,6 +202,7 @@
     {
       "name": "ButtonClickedArmor",
       "type": "procedure",
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "button_clicked_armor",
@@ -215,6 +217,187 @@
           }
         ]
       }
+    },
+    {
+      "name": "BananaPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/procedures/BananaPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Banana",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2dlc/models/item/banana.json",
+          "src/main/java/mc/dhp/foss/k7a2dlc/item/BananaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LuckyBlock",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2dlc/models/item/lucky_block.json",
+          "src/main/resources/assets/k7a2dlc/blockstates/lucky_block.json",
+          "src/main/java/mc/dhp/foss/k7a2dlc/block/LuckyBlockBlock.java",
+          "src/main/resources/assets/k7a2dlc/models/block/lucky_block.json"
+        ]
+      }
+    },
+    {
+      "name": "LuckyBlockBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_block_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/procedures/LuckyBlockBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LuckyBlockRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2dlc/recipes/lucky_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StopRightThereLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stop_right_there_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/procedures/StopRightThereLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StopRightThere",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stop_right_there",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/item/StopRightThereItem.java",
+          "src/main/resources/assets/k7a2dlc/models/item/stop_right_there.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondStructure",
+      "type": "structure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2dlc/worldgen/structure_set/diamond_structure.json",
+          "src/main/resources/data/k7a2dlc/worldgen/template_pool/diamond_structure.json",
+          "src/main/resources/data/k7a2dlc/worldgen/structure/diamond_structure.json"
+        ]
+      }
+    },
+    {
+      "name": "TPLStructure",
+      "type": "structure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tpl_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2dlc/worldgen/structure_set/tpl_structure.json",
+          "src/main/resources/data/k7a2dlc/worldgen/structure/tpl_structure.json",
+          "src/main/resources/data/k7a2dlc/worldgen/template_pool/tpl_structure.json"
+        ]
+      }
+    },
+    {
+      "name": "StopRightThereRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stop_right_there_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2dlc/recipes/stop_right_there_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -227,12 +410,15 @@
       "item.k7a2dlc.tpl_trader_spawn_egg": "TPL Trader Spawn Egg",
       "item.k7a2dlc.ton_lai_spawn_egg": "Ton Lai Spawn Egg",
       "gui.k7a2dlc.weapon_trader.label_ton_lai_sword_trader": "Ton Lai - Sword Trader",
+      "item.k7a2dlc.stop_right_there": "Stop Right There",
       "gui.k7a2dlc.armor_trader.label_ton_lai_sword_trader": "TPL - Armor Trader",
       "entity.k7a2dlc.tpl_trader": "TPL Trader",
+      "block.k7a2dlc.lucky_block": "Lucky Block",
       "gui.k7a2dlc.weapon_trader.label_sword_axe": "Sword / Axe",
       "gui.k7a2dlc.armor_trader.label_sword_axe": "Armor",
       "gui.k7a2dlc.armor_trader.label_empty1": "+",
       "gui.k7a2dlc.weapon_trader.label_emerald_block": "Netherite Ingot",
+      "item.k7a2dlc.banana": "Banana",
       "gui.k7a2dlc.weapon_trader.label_empty": "-\u003e",
       "gui.k7a2dlc.weapon_trader.label_empty1": "+",
       "gui.k7a2dlc.weapon_trader.button_ok": "Ok",
