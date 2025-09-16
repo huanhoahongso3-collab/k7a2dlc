@@ -385,6 +385,19 @@
           "src/main/resources/data/k7a2dlc/worldgen/template_pool/tpl_structure.json"
         ]
       }
+    },
+    {
+      "name": "StopRightThereRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stop_right_there_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2dlc/recipes/stop_right_there_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
