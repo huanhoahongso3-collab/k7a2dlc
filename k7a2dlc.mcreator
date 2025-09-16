@@ -217,6 +217,111 @@
           }
         ]
       }
+    },
+    {
+      "name": "BananaPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/procedures/BananaPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Banana",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2dlc/models/item/banana.json",
+          "src/main/java/mc/dhp/foss/k7a2dlc/item/BananaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LuckyBlock",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2dlc/models/item/lucky_block.json",
+          "src/main/resources/assets/k7a2dlc/blockstates/lucky_block.json",
+          "src/main/java/mc/dhp/foss/k7a2dlc/block/LuckyBlockBlock.java",
+          "src/main/resources/assets/k7a2dlc/models/block/lucky_block.json"
+        ]
+      }
+    },
+    {
+      "name": "LuckyBlockBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_block_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/procedures/LuckyBlockBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LuckyBlockRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2dlc/recipes/lucky_block_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -231,10 +336,12 @@
       "gui.k7a2dlc.weapon_trader.label_ton_lai_sword_trader": "Ton Lai - Sword Trader",
       "gui.k7a2dlc.armor_trader.label_ton_lai_sword_trader": "TPL - Armor Trader",
       "entity.k7a2dlc.tpl_trader": "TPL Trader",
+      "block.k7a2dlc.lucky_block": "Lucky Block",
       "gui.k7a2dlc.weapon_trader.label_sword_axe": "Sword / Axe",
       "gui.k7a2dlc.armor_trader.label_sword_axe": "Armor",
       "gui.k7a2dlc.armor_trader.label_empty1": "+",
       "gui.k7a2dlc.weapon_trader.label_emerald_block": "Netherite Ingot",
+      "item.k7a2dlc.banana": "Banana",
       "gui.k7a2dlc.weapon_trader.label_empty": "-\u003e",
       "gui.k7a2dlc.weapon_trader.label_empty1": "+",
       "gui.k7a2dlc.weapon_trader.button_ok": "Ok",

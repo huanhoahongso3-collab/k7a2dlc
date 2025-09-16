@@ -22,5 +22,6 @@ public class K7a2dlcModTabs {
 				tabData.accept(K7a2dlcModItems.TON_LAI_SPAWN_EGG.get());
 				tabData.accept(K7a2dlcModItems.TPL_TRADER_SPAWN_EGG.get());
 				tabData.accept(K7a2dlcModItems.BANANA.get());
+				tabData.accept(K7a2dlcModBlocks.LUCKY_BLOCK.get().asItem());
 			}).withSearchBar().build());
 }

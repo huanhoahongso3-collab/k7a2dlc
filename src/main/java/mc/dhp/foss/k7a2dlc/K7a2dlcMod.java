@@ -33,6 +33,7 @@ import mc.dhp.foss.k7a2dlc.init.K7a2dlcModTabs;
 import mc.dhp.foss.k7a2dlc.init.K7a2dlcModMenus;
 import mc.dhp.foss.k7a2dlc.init.K7a2dlcModItems;
 import mc.dhp.foss.k7a2dlc.init.K7a2dlcModEntities;
+import mc.dhp.foss.k7a2dlc.init.K7a2dlcModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -51,6 +52,8 @@ public class K7a2dlcMod {
 	public K7a2dlcMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		K7a2dlcModBlocks.REGISTRY.register(bus);
 
 		K7a2dlcModItems.REGISTRY.register(bus);
 		K7a2dlcModEntities.REGISTRY.register(bus);

@@ -20,6 +20,11 @@ public class BananaItem extends Item {
 	}
 
 	@Override
+	public int getUseDuration(ItemStack itemstack) {
+		return 74;
+	}
+
+	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 	}
@@ -30,7 +35,7 @@ public class BananaItem extends Item {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-		BananaPlayerFinishesUsingItemProcedure.execute(x, y, z, entity);
+		BananaPlayerFinishesUsingItemProcedure.execute(world, x, z, entity);
 		return retval;
 	}
 }
