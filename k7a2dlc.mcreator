@@ -370,6 +370,21 @@
           "src/main/resources/data/k7a2dlc/worldgen/structure/diamond_structure.json"
         ]
       }
+    },
+    {
+      "name": "TPLStructure",
+      "type": "structure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tpl_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2dlc/worldgen/structure_set/tpl_structure.json",
+          "src/main/resources/data/k7a2dlc/worldgen/structure/tpl_structure.json",
+          "src/main/resources/data/k7a2dlc/worldgen/template_pool/tpl_structure.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
