@@ -4,9 +4,10 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="k7a2dlc"
-version="2.0"
+version="2.2"
 displayName="k7a2dlc"
 displayURL="https://phucdh0110.localplayer.dev"
+logoFile="logo.png"
 credits="Update name: Dungeons of Festival"
 authors="masterlegendpvp"
 description="A Update for original K7A2 Mod without needing it to work"

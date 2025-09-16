@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "floating_lantern",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:cherry_trapdoor"
+    },
+    {
+      "item": "minecraft:lantern"
+    },
+    {
+      "item": "minecraft:cherry_trapdoor"
+    }
+  ],
+  "result": {
+    "item": "k7a2dlc:floating_lantern",
+    "count": 1
+  }
+}

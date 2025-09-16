@@ -555,6 +555,19 @@
           "src/main/resources/assets/k7a2dlc/models/item/floating_lantern.json"
         ]
       }
+    },
+    {
+      "name": "FloatingLanternRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floating_lantern_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2dlc/recipes/floating_lantern_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -637,13 +650,14 @@
   "workspaceSettings": {
     "modid": "k7a2dlc",
     "modName": "k7a2dlc",
-    "version": "2.0",
+    "version": "2.2",
     "description": "A Update for original K7A2 Mod without needing it to work",
     "author": "masterlegendpvp",
     "websiteURL": "https://phucdh0110.localplayer.dev",
     "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "image-removebg-preview",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
