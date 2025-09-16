@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "k7a2dlc:item/stop-sign-icon-free-png-705029109"
+  }
+}

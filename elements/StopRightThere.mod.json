@@ -1,0 +1,36 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "stop-sign-icon-free-png-705029109",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Stop Right There",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:K7A2DLC"
+    },
+    "harvestLevel": 1,
+    "efficiency": 1.0,
+    "attackSpeed": 100.0,
+    "enchantability": 1,
+    "damageVsEntity": 0.0,
+    "usageCount": 4,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "StopRightThereLivingEntityIsHitWithTool"
+    }
+  }
+}
