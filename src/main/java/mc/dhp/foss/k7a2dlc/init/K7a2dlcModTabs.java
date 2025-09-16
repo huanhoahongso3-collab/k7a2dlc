@@ -21,5 +21,6 @@ public class K7a2dlcModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.k7a2dlc.k_7_a_2_dlc")).icon(() -> new ItemStack(Blocks.DIAMOND_BLOCK)).displayItems((parameters, tabData) -> {
 				tabData.accept(K7a2dlcModItems.TON_LAI_SPAWN_EGG.get());
 				tabData.accept(K7a2dlcModItems.TPL_TRADER_SPAWN_EGG.get());
+				tabData.accept(K7a2dlcModItems.BANANA.get());
 			}).withSearchBar().build());
 }
