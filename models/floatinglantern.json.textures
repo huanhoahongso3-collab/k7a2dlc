@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cherry_trapdoor",
+        "1": "16870722_l",
+        "2": "screenshot",
+        "4": "pinkwall",
+        "5": "flower"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -30,6 +30,9 @@ public class K7a2dlcModItems {
 	public static final RegistryObject<Item> PICKLEBALL = REGISTRY.register("pickleball", () -> new PickleballItem());
 	public static final RegistryObject<Item> VOT_PICKLEBALL = REGISTRY.register("vot_pickleball", () -> new VotPickleballItem());
 	public static final RegistryObject<Item> DO_PHU_QUY_PICKLEBALL = REGISTRY.register("do_phu_quy_pickleball", () -> new DoPhuQuyPickleballItem());
+	public static final RegistryObject<Item> BLOCK_OF_TPL = block(K7a2dlcModBlocks.BLOCK_OF_TPL);
+	public static final RegistryObject<Item> BLOCK_OF_TPL_2 = block(K7a2dlcModBlocks.BLOCK_OF_TPL_2);
+	public static final RegistryObject<Item> FLOATING_LANTERN = block(K7a2dlcModBlocks.FLOATING_LANTERN);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

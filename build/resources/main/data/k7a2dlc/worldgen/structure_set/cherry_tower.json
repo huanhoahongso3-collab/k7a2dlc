@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "k7a2dlc:cherry_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 47,
+    "separation": 7,
+    "salt": 1216187849
+  }
+}

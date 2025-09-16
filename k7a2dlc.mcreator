@@ -492,6 +492,69 @@
           "src/main/resources/data/k7a2dlc/recipes/music_pickleball.json"
         ]
       }
+    },
+    {
+      "name": "BlockOfTPL",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_tpl",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2dlc/blockstates/block_of_tpl.json",
+          "src/main/resources/assets/k7a2dlc/models/block/block_of_tpl.json",
+          "src/main/java/mc/dhp/foss/k7a2dlc/block/BlockOfTPLBlock.java",
+          "src/main/resources/assets/k7a2dlc/models/item/block_of_tpl.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfTPL2",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_tpl_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2dlc/blockstates/block_of_tpl_2.json",
+          "src/main/java/mc/dhp/foss/k7a2dlc/block/BlockOfTPL2Block.java",
+          "src/main/resources/assets/k7a2dlc/models/item/block_of_tpl_2.json",
+          "src/main/resources/assets/k7a2dlc/models/block/block_of_tpl_2.json"
+        ]
+      }
+    },
+    {
+      "name": "CherryTower",
+      "type": "structure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_tower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2dlc/worldgen/structure_set/cherry_tower.json",
+          "src/main/resources/data/k7a2dlc/worldgen/template_pool/cherry_tower.json",
+          "src/main/resources/data/k7a2dlc/worldgen/structure/cherry_tower.json"
+        ]
+      }
+    },
+    {
+      "name": "FloatingLantern",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floating_lantern",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/block/FloatingLanternBlock.java",
+          "src/main/resources/assets/k7a2dlc/blockstates/floating_lantern.json",
+          "src/main/resources/assets/k7a2dlc/models/block/floating_lantern.json",
+          "src/main/resources/assets/k7a2dlc/models/item/floating_lantern.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -513,15 +576,18 @@
       "item.k7a2dlc.tpl_trader_spawn_egg": "TPL Trader Spawn Egg",
       "block.k7a2dlc.lucky_block": "Lucky Block",
       "gui.k7a2dlc.armor_trader.label_sword_axe": "Armor",
+      "block.k7a2dlc.floating_lantern": "Floating Lantern",
       "gui.k7a2dlc.weapon_trader.label_emerald_block": "Netherite Ingot",
       "item.k7a2dlc.banana": "Banana",
       "gui.k7a2dlc.weapon_trader.button_ok": "Ok",
       "subtitles.pickleball": "Pickleball",
+      "block.k7a2dlc.block_of_tpl": "Block Of TPL",
       "gui.k7a2dlc.armor_trader.label_empty": "-\u003e",
       "item.k7a2dlc.ton_lai_spawn_egg": "Ton Lai Spawn Egg",
       "gui.k7a2dlc.weapon_trader.label_ton_lai_sword_trader": "Ton Lai - Sword Trader",
       "item.k7a2dlc.stop_right_there": "Stop Right There",
       "gui.k7a2dlc.armor_trader.label_ton_lai_sword_trader": "TPL - Armor Trader",
+      "block.k7a2dlc.block_of_tpl_2": "Block Of TPL 2",
       "entity.k7a2dlc.tpl_trader": "TPL Trader",
       "gui.k7a2dlc.weapon_trader.label_sword_axe": "Sword / Axe",
       "item.k7a2dlc.vot_pickleball": "Vot Pickleball",
@@ -541,7 +607,7 @@
   "workspaceSettings": {
     "modid": "k7a2dlc",
     "modName": "k7a2dlc",
-    "version": "1.0.0",
+    "version": "1.1",
     "description": "A Update for original K7A2 Mod without needing it to work",
     "author": "masterlegendpvp",
     "websiteURL": "https://phucdh0110.localplayer.dev",

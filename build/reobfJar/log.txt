@@ -130,13 +130,28 @@ Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/world/inventory/ArmorTrad
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/world/inventory/ArmorTraderMenu/removed(Lnet/minecraft/world/entity/player/Player;)V from net/minecraft/world/inventory/AbstractContainerMenu/removed(Lnet/minecraft/world/entity/player/Player;)V: removed -> m_6877_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/world/inventory/ArmorTraderMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/AbstractContainerMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z: stillValid -> m_6875_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/world/inventory/ArmorTraderMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/AbstractContainerMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;: quickMoveStack -> m_7648_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/block/FloatingLanternBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/block/FloatingLanternBlock/skipRendering(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/level/block/state/BlockBehaviour/skipRendering(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;)Z: skipRendering -> m_6104_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/block/FloatingLanternBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/block/FloatingLanternBlock/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/block/FloatingLanternBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/block/FloatingLanternBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/block/BlockOfTPL2Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/block/BlockOfTPL2Block/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/block/BlockOfTPL2Block/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/client/renderer/TonLaiRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/block/BlockOfTPLBlock/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/block/BlockOfTPLBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/block/BlockOfTPLBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/block/LuckyBlockBlock/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/block/LuckyBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/client/renderer/TonLaiRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/client/renderer/TPLTraderRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TonLaiEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TPLTraderEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/item/DoPhuQuyPickleballItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/RecordItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/item/VotPickleballItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/item/VotPickleballItem/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim; from net/minecraft/world/item/Item/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim;: getUseAnimation -> m_6164_
+Conflicting propagated mapping for net/minecraftforge/network/IContainerFactory/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuType$MenuSupplier/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: create -> m_39994_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/item/VotPickleballItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/item/VotPickleballItem/getDestroySpeed(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;)F from net/minecraft/world/item/Item/getDestroySpeed(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;)F: getDestroySpeed -> m_8102_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/item/VotPickleballItem/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/item/Item/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I: getUseDuration -> m_8105_
@@ -144,38 +159,39 @@ Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/item/VotPickleballItem/on
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/item/VotPickleballItem/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap; from net/minecraft/world/item/Item/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap;: getDefaultAttributeModifiers -> m_7167_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/item/PickleballItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/item/PickleballItem/getDestroySpeed(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;)F from net/minecraft/world/item/Item/getDestroySpeed(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;)F: getDestroySpeed -> m_8102_
-Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TonLaiEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
-Conflicting propagated mapping for net/minecraftforge/network/IContainerFactory/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuType$MenuSupplier/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: create -> m_39994_
-Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TPLTraderEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/item/StopRightThereItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/item/StopRightThereItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/SwordItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z: hurtEnemy -> m_7579_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/item/BananaItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/item/BananaItem/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/item/Item/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I: getUseDuration -> m_8105_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/item/BananaItem/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
 Conflicting propagated mapping for net/minecraftforge/common/ForgeSpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType; from net/minecraft/world/item/SpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType;: getType -> m_43228_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/PickleballProjectileEntity/getPickupItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/AbstractArrow/getPickupItem()Lnet/minecraft/world/item/ItemStack;: getPickupItem -> m_7941_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/client/gui/WeaponTraderScreen/keyPressed(III)Z from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/keyPressed(III)Z: keyPressed -> m_7933_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/client/gui/WeaponTraderScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/client/gui/WeaponTraderScreen/onClose()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/onClose()V: onClose -> m_7379_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/PickleballProjectileEntity/tick()V from net/minecraft/world/entity/projectile/AbstractArrow/tick()V: tick -> m_8119_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/client/gui/WeaponTraderScreen/init()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/init()V: init -> m_7856_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/PickleballProjectileEntity/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V from net/minecraft/world/entity/projectile/AbstractArrow/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V: doPostHurtEffects -> m_7761_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/client/gui/WeaponTraderScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V: renderLabels -> m_280003_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/client/gui/WeaponTraderScreen/containerTick()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/containerTick()V: containerTick -> m_181908_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/client/gui/WeaponTraderScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V: renderBg -> m_7286_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/PickleballProjectileEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/projectile/Projectile/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/PickleballProjectileEntity/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/ItemSupplier/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7846_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/client/gui/ArmorTraderScreen/keyPressed(III)Z from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/keyPressed(III)Z: keyPressed -> m_7933_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/client/gui/ArmorTraderScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/client/gui/ArmorTraderScreen/onClose()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/onClose()V: onClose -> m_7379_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/client/gui/ArmorTraderScreen/init()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/init()V: init -> m_7856_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/client/gui/ArmorTraderScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V: renderLabels -> m_280003_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/client/gui/ArmorTraderScreen/containerTick()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/containerTick()V: containerTick -> m_181908_
-Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/PickleballProjectileEntity/getPickupItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/AbstractArrow/getPickupItem()Lnet/minecraft/world/item/ItemStack;: getPickupItem -> m_7941_
-Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/PickleballProjectileEntity/tick()V from net/minecraft/world/entity/projectile/AbstractArrow/tick()V: tick -> m_8119_
-Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/PickleballProjectileEntity/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V from net/minecraft/world/entity/projectile/AbstractArrow/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V: doPostHurtEffects -> m_7761_
-Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/PickleballProjectileEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/projectile/Projectile/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
-Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/PickleballProjectileEntity/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/ItemSupplier/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7846_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/client/gui/ArmorTraderScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V: renderBg -> m_7286_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TonLaiEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TonLaiEntity/mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/entity/Mob/mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;: mobInteract -> m_6071_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TonLaiEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TonLaiEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TonLaiEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/Mob/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TonLaiEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TonLaiEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TonLaiEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TPLTraderEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TPLTraderEntity/mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/entity/Mob/mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;: mobInteract -> m_6071_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TPLTraderEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
@@ -184,12 +200,9 @@ Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TPLTraderEntity/dr
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TPLTraderEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TPLTraderEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TPLTraderEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
-Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TonLaiEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/Mob/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
-Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TonLaiEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
-Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TonLaiEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
-Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/entity/TonLaiEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/client/gui/WeaponTraderScreen$1/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/components/AbstractWidget/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/client/gui/ArmorTraderScreen$1/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/components/AbstractWidget/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
+Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/set(Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/set(Lnet/minecraft/world/item/ItemStack;)V: set -> m_5852_
 Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/inventory/Slot/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
 Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/remove(I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/Slot/remove(I)Lnet/minecraft/world/item/ItemStack;: remove -> m_6201_
@@ -199,7 +212,6 @@ Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getM
 Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/mayPickup(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/Slot/mayPickup(Lnet/minecraft/world/entity/player/Player;)Z: mayPickup -> m_8010_
 Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getMaxStackSize()I from net/minecraft/world/inventory/Slot/getMaxStackSize()I: getMaxStackSize -> m_6641_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/world/inventory/WeaponTraderMenu$1/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
-Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/world/inventory/WeaponTraderMenu$3/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/world/inventory/ArmorTraderMenu$1/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
 Conflicting propagated mapping for mc/dhp/foss/k7a2dlc/world/inventory/ArmorTraderMenu$3/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
@@ -222,15 +234,28 @@ Writing Output: /mnt/DATA/MCreatorWorkspaces/k7a2dlc/build/reobfJar/output.jar
   assets/
   assets/k7a2dlc/
   assets/k7a2dlc/blockstates/
+  assets/k7a2dlc/blockstates/block_of_tpl.json
+  assets/k7a2dlc/blockstates/block_of_tpl_2.json
+  assets/k7a2dlc/blockstates/floating_lantern.json
   assets/k7a2dlc/blockstates/lucky_block.json
   assets/k7a2dlc/lang/
   assets/k7a2dlc/lang/en_us.json
   assets/k7a2dlc/models/
   assets/k7a2dlc/models/block/
+  assets/k7a2dlc/models/block/block_of_tpl.json
+  assets/k7a2dlc/models/block/block_of_tpl_2.json
+  assets/k7a2dlc/models/block/floating_lantern.json
   assets/k7a2dlc/models/block/lucky_block.json
+  assets/k7a2dlc/models/custom/
+  assets/k7a2dlc/models/custom/floatinglantern.json
   assets/k7a2dlc/models/item/
   assets/k7a2dlc/models/item/banana.json
+  assets/k7a2dlc/models/item/block_of_tpl.json
+  assets/k7a2dlc/models/item/block_of_tpl_2.json
   assets/k7a2dlc/models/item/do_phu_quy_pickleball.json
+  assets/k7a2dlc/models/item/floating_lantern.json
+  assets/k7a2dlc/models/item/floatinglantern.mtl
+  assets/k7a2dlc/models/item/floatinglantern.obj
   assets/k7a2dlc/models/item/lucky_block.json
   assets/k7a2dlc/models/item/pickleball.json
   assets/k7a2dlc/models/item/stop_right_there.json
@@ -242,11 +267,20 @@ Writing Output: /mnt/DATA/MCreatorWorkspaces/k7a2dlc/build/reobfJar/output.jar
   assets/k7a2dlc/sounds/pickleball.ogg
   assets/k7a2dlc/textures/
   assets/k7a2dlc/textures/block/
+  assets/k7a2dlc/textures/block/16870722_l.png
   assets/k7a2dlc/textures/block/637340516679412797-349081769.png
+  assets/k7a2dlc/textures/block/b182ca5724c69c98c5d77.png
+  assets/k7a2dlc/textures/block/c6ec5b6a560ca224dbe6070e52f70f7c.png
+  assets/k7a2dlc/textures/block/cherry_trapdoor.png
+  assets/k7a2dlc/textures/block/flower.png
+  assets/k7a2dlc/textures/block/pinkwall.png
+  assets/k7a2dlc/textures/block/screenshot.png
+  assets/k7a2dlc/textures/block/untitled2.png
   assets/k7a2dlc/textures/entities/
   assets/k7a2dlc/textures/entities/tonlai.png
   assets/k7a2dlc/textures/entities/tpl.png
   assets/k7a2dlc/textures/item/
+  assets/k7a2dlc/textures/item/c6ec5b6a560ca224dbe6070e52f70f7c.png
   assets/k7a2dlc/textures/item/dophuquy.png
   assets/k7a2dlc/textures/item/image-removebg-preview.png
   assets/k7a2dlc/textures/item/pickleballbong.png
@@ -268,16 +302,20 @@ Writing Output: /mnt/DATA/MCreatorWorkspaces/k7a2dlc/build/reobfJar/output.jar
   data/k7a2dlc/recipes/stop_right_there_recipe.json
   data/k7a2dlc/recipes/vot_pickleball_recipe.json
   data/k7a2dlc/structures/
+  data/k7a2dlc/structures/che.nbt
   data/k7a2dlc/structures/di.nbt
   data/k7a2dlc/structures/tpl2.nbt
   data/k7a2dlc/worldgen/
   data/k7a2dlc/worldgen/structure/
+  data/k7a2dlc/worldgen/structure/cherry_tower.json
   data/k7a2dlc/worldgen/structure/diamond_structure.json
   data/k7a2dlc/worldgen/structure/tpl_structure.json
   data/k7a2dlc/worldgen/structure_set/
+  data/k7a2dlc/worldgen/structure_set/cherry_tower.json
   data/k7a2dlc/worldgen/structure_set/diamond_structure.json
   data/k7a2dlc/worldgen/structure_set/tpl_structure.json
   data/k7a2dlc/worldgen/template_pool/
+  data/k7a2dlc/worldgen/template_pool/cherry_tower.json
   data/k7a2dlc/worldgen/template_pool/diamond_structure.json
   data/k7a2dlc/worldgen/template_pool/tpl_structure.json
   data/minecraft/
@@ -290,6 +328,9 @@ Writing Output: /mnt/DATA/MCreatorWorkspaces/k7a2dlc/build/reobfJar/output.jar
   mc/dhp/foss/k7a2dlc/
   mc/dhp/foss/k7a2dlc/K7a2dlcMod.class
   mc/dhp/foss/k7a2dlc/block/
+  mc/dhp/foss/k7a2dlc/block/BlockOfTPL2Block.class
+  mc/dhp/foss/k7a2dlc/block/BlockOfTPLBlock.class
+  mc/dhp/foss/k7a2dlc/block/FloatingLanternBlock.class
   mc/dhp/foss/k7a2dlc/block/LuckyBlockBlock.class
   mc/dhp/foss/k7a2dlc/client/
   mc/dhp/foss/k7a2dlc/client/gui/

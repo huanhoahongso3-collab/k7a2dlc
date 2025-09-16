@@ -1,0 +1,13 @@
+{
+  "parent": "k7a2dlc:custom/floatinglantern",
+  "textures": {
+    "all": "k7a2dlc:block/screenshot",
+    "particle": "k7a2dlc:block/screenshot",
+    "0": "k7a2dlc:block/cherry_trapdoor",
+    "1": "k7a2dlc:block/16870722_l",
+    "2": "k7a2dlc:block/screenshot",
+    "4": "k7a2dlc:block/pinkwall",
+    "5": "k7a2dlc:block/flower"
+  },
+  "render_type": "cutout"
+}

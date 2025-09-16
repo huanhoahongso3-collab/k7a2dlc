@@ -1,0 +1,595 @@
+{
+  "mod_elements": [
+    {
+      "name": "K7A2DLC",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_dlc",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TonLai",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ton_lai",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2dlc/models/item/ton_lai_spawn_egg.json",
+          "src/main/resources/data/k7a2dlc/forge/biome_modifier/ton_lai_biome_modifier.json",
+          "src/main/java/mc/dhp/foss/k7a2dlc/client/renderer/TonLaiRenderer.java",
+          "src/main/java/mc/dhp/foss/k7a2dlc/entity/TonLaiEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "TPLTrader",
+      "type": "livingentity",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tpl_trader",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2dlc/forge/biome_modifier/tpl_trader_biome_modifier.json",
+          "src/main/resources/assets/k7a2dlc/models/item/tpl_trader_spawn_egg.json",
+          "src/main/java/mc/dhp/foss/k7a2dlc/entity/TPLTraderEntity.java",
+          "src/main/java/mc/dhp/foss/k7a2dlc/client/renderer/TPLTraderRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "WeaponTrader",
+      "type": "gui",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_trader",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/network/WeaponTraderButtonMessage.java",
+          "src/main/java/mc/dhp/foss/k7a2dlc/world/inventory/WeaponTraderMenu.java",
+          "src/main/java/mc/dhp/foss/k7a2dlc/client/gui/WeaponTraderScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "ArmorTrader",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor_trader",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/world/inventory/ArmorTraderMenu.java",
+          "src/main/java/mc/dhp/foss/k7a2dlc/client/gui/ArmorTraderScreen.java",
+          "src/main/java/mc/dhp/foss/k7a2dlc/network/ArmorTraderButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "ButtonDisplayWeapon",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "button_display_weapon",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/procedures/ButtonDisplayWeaponProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ButtonClickedWeapon",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "button_clicked_weapon",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TonLaiRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ton_lai_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/procedures/TonLaiRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TPLTraderRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tpl_trader_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/procedures/TPLTraderRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ButtonDisplayArmor",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "button_display_armor",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/procedures/ButtonDisplayArmorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ButtonClickedArmor",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "button_clicked_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/procedures/ButtonClickedArmorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BananaPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/procedures/BananaPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Banana",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2dlc/models/item/banana.json",
+          "src/main/java/mc/dhp/foss/k7a2dlc/item/BananaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LuckyBlock",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2dlc/models/item/lucky_block.json",
+          "src/main/resources/assets/k7a2dlc/blockstates/lucky_block.json",
+          "src/main/java/mc/dhp/foss/k7a2dlc/block/LuckyBlockBlock.java",
+          "src/main/resources/assets/k7a2dlc/models/block/lucky_block.json"
+        ]
+      }
+    },
+    {
+      "name": "LuckyBlockBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_block_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/procedures/LuckyBlockBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LuckyBlockRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2dlc/recipes/lucky_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StopRightThereLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stop_right_there_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/procedures/StopRightThereLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StopRightThere",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stop_right_there",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/item/StopRightThereItem.java",
+          "src/main/resources/assets/k7a2dlc/models/item/stop_right_there.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondStructure",
+      "type": "structure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2dlc/worldgen/structure_set/diamond_structure.json",
+          "src/main/resources/data/k7a2dlc/worldgen/template_pool/diamond_structure.json",
+          "src/main/resources/data/k7a2dlc/worldgen/structure/diamond_structure.json"
+        ]
+      }
+    },
+    {
+      "name": "TPLStructure",
+      "type": "structure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tpl_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2dlc/worldgen/structure_set/tpl_structure.json",
+          "src/main/resources/data/k7a2dlc/worldgen/structure/tpl_structure.json",
+          "src/main/resources/data/k7a2dlc/worldgen/template_pool/tpl_structure.json"
+        ]
+      }
+    },
+    {
+      "name": "StopRightThereRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stop_right_there_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2dlc/recipes/stop_right_there_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Pickleball",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickleball",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/item/PickleballItem.java",
+          "src/main/resources/assets/k7a2dlc/models/item/pickleball.json"
+        ]
+      }
+    },
+    {
+      "name": "PickleballProjectile",
+      "type": "projectile",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickleball_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/entity/PickleballProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "VotPickleball",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vot_pickleball",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/dhp/foss/k7a2dlc/item/VotPickleballItem.java",
+          "src/main/resources/assets/k7a2dlc/models/item/vot_pickleball.json"
+        ]
+      }
+    },
+    {
+      "name": "PickleballRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickleball_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2dlc/recipes/pickleball_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "VotPickleballRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vot_pickleball_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2dlc/recipes/vot_pickleball_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DoPhuQuyPickleball",
+      "type": "musicdisc",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "do_phu_quy_pickleball",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2dlc/models/item/do_phu_quy_pickleball.json",
+          "src/main/java/mc/dhp/foss/k7a2dlc/item/DoPhuQuyPickleballItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MusicPickleball",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_pickleball",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2dlc/recipes/music_pickleball.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfTPL",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_tpl",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2dlc/blockstates/block_of_tpl.json",
+          "src/main/resources/assets/k7a2dlc/models/block/block_of_tpl.json",
+          "src/main/java/mc/dhp/foss/k7a2dlc/block/BlockOfTPLBlock.java",
+          "src/main/resources/assets/k7a2dlc/models/item/block_of_tpl.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfTPL2",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_tpl_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2dlc/blockstates/block_of_tpl_2.json",
+          "src/main/java/mc/dhp/foss/k7a2dlc/block/BlockOfTPL2Block.java",
+          "src/main/resources/assets/k7a2dlc/models/item/block_of_tpl_2.json",
+          "src/main/resources/assets/k7a2dlc/models/block/block_of_tpl_2.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "pickleball",
+      "files": [
+        "pickleball"
+      ],
+      "category": "music",
+      "subtitle": "Pickleball"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "gui.k7a2dlc.armor_trader.label_emerald_block": "Netherite Ingot",
+      "item.k7a2dlc.pickleball": "Pickleball",
+      "gui.k7a2dlc.armor_trader.button_ok": "Ok",
+      "item.k7a2dlc.tpl_trader_spawn_egg": "TPL Trader Spawn Egg",
+      "block.k7a2dlc.lucky_block": "Lucky Block",
+      "gui.k7a2dlc.armor_trader.label_sword_axe": "Armor",
+      "gui.k7a2dlc.weapon_trader.label_emerald_block": "Netherite Ingot",
+      "item.k7a2dlc.banana": "Banana",
+      "gui.k7a2dlc.weapon_trader.button_ok": "Ok",
+      "subtitles.pickleball": "Pickleball",
+      "block.k7a2dlc.block_of_tpl": "Block Of TPL",
+      "gui.k7a2dlc.armor_trader.label_empty": "-\u003e",
+      "item.k7a2dlc.ton_lai_spawn_egg": "Ton Lai Spawn Egg",
+      "gui.k7a2dlc.weapon_trader.label_ton_lai_sword_trader": "Ton Lai - Sword Trader",
+      "item.k7a2dlc.stop_right_there": "Stop Right There",
+      "gui.k7a2dlc.armor_trader.label_ton_lai_sword_trader": "TPL - Armor Trader",
+      "block.k7a2dlc.block_of_tpl_2": "Block Of TPL 2",
+      "entity.k7a2dlc.tpl_trader": "TPL Trader",
+      "gui.k7a2dlc.weapon_trader.label_sword_axe": "Sword / Axe",
+      "item.k7a2dlc.vot_pickleball": "Vot Pickleball",
+      "item.k7a2dlc.do_phu_quy_pickleball": "Do Phu Quy Pickleball",
+      "gui.k7a2dlc.armor_trader.label_empty1": "+",
+      "gui.k7a2dlc.weapon_trader.label_empty": "-\u003e",
+      "gui.k7a2dlc.weapon_trader.label_empty1": "+",
+      "item.k7a2dlc.do_phu_quy_pickleball.desc": "Do Phu Quy Pickleball",
+      "item_group.k7a2dlc.k_7_a_2_dlc": "K 7 A 2 DLC",
+      "entity.k7a2dlc.ton_lai": "Ton Lai"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "k7a2dlc",
+    "modName": "k7a2dlc",
+    "version": "1.0",
+    "description": "A Update for original K7A2 Mod without needing it to work",
+    "author": "masterlegendpvp",
+    "websiteURL": "https://phucdh0110.localplayer.dev",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Update name: Dungeons of Festival",
+    "modElementsPackage": "mc.dhp.foss.k7a2dlc",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

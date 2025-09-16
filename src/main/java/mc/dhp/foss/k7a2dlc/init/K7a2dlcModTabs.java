@@ -27,5 +27,6 @@ public class K7a2dlcModTabs {
 				tabData.accept(K7a2dlcModItems.PICKLEBALL.get());
 				tabData.accept(K7a2dlcModItems.VOT_PICKLEBALL.get());
 				tabData.accept(K7a2dlcModItems.DO_PHU_QUY_PICKLEBALL.get());
+				tabData.accept(K7a2dlcModBlocks.FLOATING_LANTERN.get().asItem());
 			}).withSearchBar().build());
 }
