@@ -355,21 +355,6 @@
           "src/main/resources/assets/k7a2dlc/models/item/stop_right_there.json"
         ]
       }
-    },
-    {
-      "name": "DiamondStructure",
-      "type": "structure",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "diamond_structure",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/k7a2dlc/worldgen/structure_set/diamond_structure.json",
-          "src/main/resources/data/k7a2dlc/worldgen/template_pool/diamond_structure.json",
-          "src/main/resources/data/k7a2dlc/worldgen/structure/diamond_structure.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],

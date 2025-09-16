@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "tpl2",
+    "projection": "rigid",
+    "ignoredBlocks": [],
+    "spacing": 147,
+    "separation": 56,
+    "restrictionBiomes": [
+      {
+        "value": "cherry_grove"
+      },
+      {
+        "value": "mutated_ice_flats"
+      },
+      {
+        "value": "void"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}

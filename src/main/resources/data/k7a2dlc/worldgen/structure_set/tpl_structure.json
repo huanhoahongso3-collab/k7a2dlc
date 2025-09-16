@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "k7a2dlc:tpl_structure",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 147,
+    "separation": 56,
+    "salt": 895348333
+  }
+}
